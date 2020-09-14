@@ -1,6 +1,7 @@
 import React, { createRef, Component } from 'react';
 import About from './ScrollLoadSimple/Com/About';
 import Header from './ScrollLoadSimple/Com/Header';
+import Construct from './ScrollLoadSimple/Com/Construct';
 
 class App extends Component {
   constructor() {
@@ -34,7 +35,9 @@ class App extends Component {
     if (this.state.changeNum === 0) {
       return <Header />
     } else {
-      return <About className={this.state.className} />
+      return (<div> <About className={this.state.className} />
+        <Construct className={this.state.className} /></div>
+      )
     }
   }
   render() {
