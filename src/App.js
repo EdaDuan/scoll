@@ -2,7 +2,7 @@ import React, { createRef, Component } from 'react';
 import About from './ScrollLoadSimple/Com/About';
 import Header from './ScrollLoadSimple/Com/Header';
 import Construct from './ScrollLoadSimple/Com/Construct';
-import Test from './ScrollLoadSimple/Com/test';
+import Test from './ScrollLoadSimple/Com/Test';
 class App extends Component {
   constructor() {
     super();
@@ -37,7 +37,8 @@ class App extends Component {
     } else {
       return (<div> <About className={this.state.className} />
         <Construct className={this.state.className} />
-        <Test className={this.state.className} /></div>
+        <Test className={this.state.className} />
+      </div>
       )
     }
   }
