@@ -12,7 +12,9 @@ class Test extends Component {
             <h3>Test GIt</h3>
             <p>This is a Test that will appear.</p>
             <p>This is a kill that will appear.</p>
+            <p>This is add branch</p>
           </div>
+
         </div>
       </div>
     )
